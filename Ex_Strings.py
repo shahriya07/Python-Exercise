@@ -1,0 +1,11 @@
+print("Program: 1 - Print the intials")
+firstName = input("Enter your first name: ")
+middleName = input("Enter your middle name: ")
+lastName = input("Enter your last name: ")
+print("Your initals are", firstName[0], middleName[0], lastName[0])
+
+print("Program: 2 - printing the company product lot number")
+lotNumber = input("Enter lot number: ")
+print("Country code: ", lotNumber[0:3])
+print("Product code: ", lotNumber[3:8])
+print("Batch number: ", lotNumber[-5:])
